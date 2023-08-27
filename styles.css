@@ -3,7 +3,7 @@
 	background-color: #87CEEA;
 }
 :root{
-	background-color:rgb(135, 206, 235);
+	background-color: rgb(135, 206, 235);
 }
 p:first-child{
 	color: white;
@@ -20,7 +20,7 @@ p:last-child{
 li:first-child{
 	font-size: 22px;
 }
-li:last-child{
+li:last-of-type{
 	font-size: 22px;
 }
 li:nth-child(3){
