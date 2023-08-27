@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+*{
+	background-color: #87CEEA;
+}
+p:first-child{
+	color: white;
+	background-color: black;
+}
+
+p:nth-child(2){
+	color: black;
+}
+
+p:last-child{
+	color: red;
+}
+li:first-child{
+	font-size: 22px;
+}
+li:last-child{
+	font-size: 22px;
+}
+li:nth-child(3){
+	background-color: #FFC0CB;
+}
+li:nth-child(odd){
+	width: 50%;
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+
+li:nth-child(even){
+	width: 50%;
+	padding: 10px;
+	background-color: grey;
+	color:black;
+}
