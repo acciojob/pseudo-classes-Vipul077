@@ -5,7 +5,7 @@ body{
 /* :root{
 	background-color: rgb(135, 206, 235);
 } */
-p:first-child{
+p:first-of-type{
 	color: white;
 	background-color: black;
 }
@@ -16,7 +16,7 @@ p:nth-child(2){
 
 /*   */
 
-p:last-child{
+p:last-of-type{
 	color: red;
 }
 li:first-child{
@@ -26,16 +26,35 @@ li:last-of-type{
 	font-size: 22px;
 }
 
-li:nth-child(odd){
+li{
 	width: 50%;
 	padding: 10px;
+	background-color: gray;
+}
+li:nth-child(odd){
 	background-color: white;
-	color: black;
 }
 
-li:nth-child(even){
+li:nth-child,
+li:last-child{
+	font-size: 22px;
+}
+
+li:nth-child(3){
+	background-color: pink;
+}
+/* li:nth-child(even){
 	width: 50%;
 	padding: 10px;
-	background-color: grey;
+	background-color: grayy;
 	color:black;
-}
+} */
+
+
+
+
+
+
+
+
+
